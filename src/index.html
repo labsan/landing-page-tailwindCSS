@@ -11,25 +11,22 @@
 
 <body>
 	<!--Navbar Open-->
-
 	<nav class="bg-white px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 border-b border-borderColor">
 		<div class="container flex flex-wrap items-center justify-between mx-auto">
-			<!--Logo Open-->
-			<a href="https://flowbite.com/" class="flex items-center">
-				<img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo">
-				<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-primaryOne">Fashion
-					Shop</span>
+			
+			<!--Logo Section-->
+			<a href="#" class="flex items-center">
+				<img src="assets/images/logos/logo.svg" class="h-6 mr-3 sm:h-9" alt="Toko Fashion Logo">
 			</a>
-			<!--Logo Close-->
 
 			<div class="flex md:order-2">
 				<!--Menu Login-->
 				<button type="button"
-					class="text-primaryOne font-bold bg-white border border-primaryOne hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-white dark:hover:bg-white dark:focus:ring-blue-800">Login</button>
+					class="text-primaryOne border-2 border-primaryOne focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 dark:bg-white dark:hover:bg-white dark:focus:ring-blue-800">Login</button>
 
 				<!--Menu Daftar-->
 				<button type="button"
-					class="text-white font-bold bg-primaryOne hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-primaryOne dark:hover:bg-primaryOne dark:focus:ring-blue-800">Daftar</button>
+					class="text-white bg-primaryOne hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-primaryOne dark:hover:bg-primaryOne dark:focus:ring-blue-800">Daftar</button>
 
 				<!--Humberger Button Open-->
 				<button data-collapse-toggle="navbar-sticky" type="button"
@@ -49,7 +46,7 @@
 			<!--Menu Open-->
 			<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
 				<ul
-					class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-white">
+					class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-white">
 					<li>
 						<a href="#"
 							class="block py-2 pl-3 pr-4 text-white font-bold bg-primaryOne rounded md:bg-transparent md:text-primaryOne md:p-0 dark:text-white"
@@ -57,7 +54,7 @@
 					</li>
 					<li>
 						<button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-							class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-primaryOne rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primaryOne md:p-0 md:w-auto dark:text-primaryOne dark:hover:text-primaryOne dark:focus:text-primaryOne dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown
+							class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-bold text-primaryOne rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primaryOne md:p-0 md:w-auto dark:text-primaryOne dark:hover:text-primaryOne dark:focus:text-primaryOne dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Kategori
 							<svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
 								xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd"
@@ -67,27 +64,22 @@
 
 						<!-- Dropdown menu -->
 						<div id="dropdownNavbar"
-							class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-							<ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+							class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-white dark:divide-white">
+							<ul class="py-2 text-sm text-primaryOne dark:text-primaryOne"
 								aria-labelledby="dropdownLargeButton">
 								<li>
 									<a href="#"
-										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-primaryOne dark:hover:text-white">T-Shirt</a>
 								</li>
 								<li>
 									<a href="#"
-										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-primaryOne dark:hover:text-white">Sepatu</a>
 								</li>
 								<li>
 									<a href="#"
-										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-primaryOne dark:hover:text-white">Jeans</a>
 								</li>
 							</ul>
-							<div class="py-1">
-								<a href="#"
-									class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white">Sign
-									out</a>
-							</div>
 						</div>
 					</li>
 					<li>
