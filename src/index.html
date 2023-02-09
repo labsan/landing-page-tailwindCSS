@@ -10,37 +10,37 @@
 </head>
 
 <body>
-	<!-- Top Nav Open  -->
+	<!-- Top Nav Section Open  -->
 	<div class="bg-primaryOne w-full p-2">
 		<div class="container mx-auto flex justify-center p-1 md:justify-between">
-			<p class="text-white text-xs flex hidden md:flex"><img src="assets/images/icons/call.svg" alt="Nomor HP toko fashion"
+			<p class="text-white text-xs hidden md:flex"><img src="assets/images/icons/call.svg" alt="call fashion shop"
 					class="mr-2 w-4 h-4"> 0812 334 5576</p>
 			<p class="text-white text-xs">Dapatkan Promo Beli 2 Gratis 1</p>
-			<p class="text-white text-xs flex hidden md:flex"><img src="assets/images/icons/location.svg" alt="Lokasi toko fashion"
-					class="mr-2 w-4 h-4"> Kabupaten Sidoarjo, Indonesia</p>
+			<p class="text-white text-xs hidden md:flex"><img src="assets/images/icons/location.svg"
+					alt="location fashion shop" class="mr-2 w-4 h-4"> Kabupaten Sidoarjo, Indonesia</p>
 		</div>
 	</div>
-	<!-- Top Nav Close  -->
+	<!-- Top Nav Section Close  -->
 
-	<!--Navbar Open-->
+	<!--Navbar Section Open-->
 	<nav class="bg-white px-2 sm:px-4 py-2.5 w-full border-b border-borderColor">
 		<div class="container flex flex-wrap items-center justify-between mx-auto">
 
-			<!--Logo Section-->
+			<!--Logo-->
 			<a href="#" class="flex items-center">
 				<img src="assets/images/logos/logo.svg" class="h-6 mr-3 sm:h-9" alt="logo toko fashion">
 			</a>
 
 			<div class="flex md:order-2">
-				<!--Menu Login-->
+				<!--Login Button-->
 				<button type="button"
 					class="text-primaryOne border-2 border-primaryOne focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 dark:bg-white dark:hover:bg-white dark:focus:ring-blue-800">Login</button>
 
-				<!--Menu Daftar-->
+				<!--Daftar Button-->
 				<button type="button"
 					class="text-white bg-primaryOne hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-primaryOne dark:hover:bg-primaryOne dark:focus:ring-blue-800">Daftar</button>
 
-				<!--Humberger Button Open-->
+				<!--Humberger Button-->
 				<button data-collapse-toggle="navbar-sticky" type="button"
 					class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
 					aria-controls="navbar-sticky" aria-expanded="false">
@@ -52,13 +52,12 @@
 							clip-rule="evenodd"></path>
 					</svg>
 				</button>
-				<!--Humberger Button Close-->
 			</div>
 
-			<!--Menu Open-->
+			<!--Menu Section Open-->
 			<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
 				<ul
-					class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-white">
+					class="flex flex-col p-4 mt-4 border bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-bold md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-white">
 					<li>
 						<a href="#"
 							class="block py-2 pl-3 pr-4 text-white font-bold bg-primaryOne rounded md:bg-transparent md:text-primaryOne md:p-0 dark:text-white"
@@ -100,10 +99,30 @@
 					</li>
 				</ul>
 			</div>
-			<!--Menu Close-->
+			<!--Menu Section Close-->
 		</div>
 	</nav>
-	<!--Navbar Close-->
+	<!--Navbar Section Close-->
+
+	<!-- Hero Section Open  -->
+	<div class="bg-primaryTwo h-1/2 w-full">
+		<div class="container mx-auto grid grid-cols-1 items-center md:grid-cols-2">
+			<!-- Hero Description  -->
+			<div class="max-md:order-2 max-md:mx-auto max-md:text-center">
+				<p class="font-light text-2xl ">Diskon <span class="font-extrabold">30%</span> hari ini</p>
+				<p class="font-black text-primaryOne text-3xl mt-2 md:text-6xl ">Promo 2023 <br> Jacket Collection</p>
+				<button type="button"
+					class="mt-5 text-black bg-white focus:outline-none hover:bg-primaryOne hover:text-white focus:ring-4 focus:ring-transparent font-bold rounded-lg text-sm px-5 py-3.5 mr-2 mb-4 dark:bg-white dark:text-black dark:hover:bg-primaryOne dark:focus:ring-transparent">Beli
+					Sekarang</button>
+			</div>
+
+			<!-- Hero Image  -->
+			<div class="flex justify-center">
+				<img src="assets/images/heroes/hero-main.png" alt="Jacket" class="h-64 md:h-96 mt-2 max-md:mb-4">
+			</div>
+		</div>
+	</div>
+	<!-- Hero Section Close  -->
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </body>
